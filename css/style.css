@@ -37,6 +37,7 @@ h2 {
   display: block;
   height: auto;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .tribute-img .img-caption {
   font-size: 0.9rem;
