@@ -1,35 +1,86 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
-  text-align: center;
-  display: block;
+  background: #222;
 }
 
 .container {
-  background: #222222;
-  padding: auto 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-family: "sans-serif";
+  margin: 1.5rem auto 0 auto;
 }
 
-.main {
-  padding: 1.75rem;
-}
-.main h1 {
-  font-size: 2rem;
+h1 {
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: white;
-}
-.main h3 {
-  color: #b1b7b7;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
+h2 {
+  font-weight: 400;
+  color: rgba(225, 225, 225, 0.8);
+  font-size: 1.2rem;
+}
+
+.tribute-img {
+  max-width: 720px;
+  margin: 2rem auto;
+  text-align: center;
+}
 .tribute-img img {
   max-width: 100%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+.tribute-img .img-caption {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: rgba(225, 225, 225, 0.7);
+  font-style: italic;
+}
+
+.tribute-info {
+  background: #fff;
+  color: #333;
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+.tribute-info h3 {
+  margin: 1rem 0;
+}
+.tribute-info ul {
+  text-align: left;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.tribute-info li {
+  margin: 1rem 0;
+}
+.tribute-info li::marker {
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  -moz-text-align-last: start !important;
+       text-align-last: start !important;
+}
+
+p {
+  font-weight: bold;
+  background: #222;
+  padding: 2rem 0;
+  color: white;
+}
+p a {
+  text-decoration: none;
+  color: rgba(225, 225, 225, 0.5);
 }/*# sourceMappingURL=style.css.map */
